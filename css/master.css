@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+}
+
+body {
+
+    background-color: rgb(255, 255, 255);
+}
+
+
+ div{
+    
+   
+    padding-top: 20px;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+   
+   
+   
+    
+}
+
+a {
+
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    display: block;
+   
+    visibility: hidden;
+    
+}
+
+button {
+
+    font-size: 30px;
+    background-color:azure;
+    height: fit-content;
+    border-radius: 0px 20px 0px 20px;
+    width: fit-content;
+    margin: 10% 30% 10% 30%;
+    
+}
+
+button:hover + img {
+
+    visibility: visible;
+}
+
+
+@media (max-width:375px) {
+
+   body {
+    width: 300px;
+    text-align: center;
+    align-items: center;
+    margin-left: 20px;
+   }
+    
+}
